@@ -2,10 +2,10 @@
 
 My Raylib Template
 
-
 This is my raylib library template for MS. Visual Studio.
 Clone and you are good to go.
 One easy first step to start making video games with raylib.
+Video how to use/clone this template: https://www.youtube.com/watch?v=JKa_VJIMU0w
 
 Note that the template includes the input mouse example from https://www.raylib.com/examples.html 
 and it also includes some of my comment templates.

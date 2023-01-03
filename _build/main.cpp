@@ -23,6 +23,7 @@ One easy first step to start making great video games with raylib.
 
 Note that the template includes the input mouse example from https://www.raylib.com/examples.html 
 and it also includes some of my comment templates.
+video how to use/clone this template: https://www.youtube.com/watch?v=JKa_VJIMU0w
 
 Requirement
 c and c++ 11 or later
@@ -185,7 +186,7 @@ E:  //                                               comment type-2
                                         |                                              |
                                         -----------------------------------------------*/
                                         //////////////////////////////////////////////////
-                                        // 
+                                         
         //----------------------------------------------------------------------------------
 
         // Draw
