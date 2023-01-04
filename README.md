@@ -16,10 +16,15 @@ and it also includes some of my comment templates.
 Requirements:
 
 c and c++ 11 or later
+
 MS Windows 10 or later 
+
 MS. Visual Studio: https://visualstudio.microsoft.com/downloads
+
 Raylib library: https://www.raylib.com
+
 Git: https://git-scm.com
+
 GitHub: https://github.com
 
 -----------------------------------------------------------------------------------------------------------------------------
