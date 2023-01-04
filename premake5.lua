@@ -1,4 +1,7 @@
 
+
+-- Modified from Jeffery Myers original version 
+
 newoption
 {
     trigger = "graphics",
@@ -77,9 +80,9 @@ workspace (workspaceName)
 
     filter {}
 
-    targetdir "_bin/%{cfg.buildcfg}/"
+    targetdir "bin/%{cfg.buildcfg}/"
 
-    if(os.isdir("game")) then
+    if(os.isdir("app")) then
         startproject(workspaceName)
     end
 
@@ -89,16 +92,14 @@ check_raylib();
 
 include ("raylib_premake5.lua")
 
-if(os.isdir("game")) then
-    include ("game")
+if(os.isdir("app")) then
+    include ("app")
 end
 
 folders = os.matchdirs("*")
-for _, folderName in ipairs(folders) do
-    if (string.starts(folderName, "raylib") == false and string.starts(folderName, "_") == false and string.starts(folderName, ".") == false) then
-        if (os.isfile(folderName .. "/premake5.lua")) then
-            print(folderName)
-            include (folderName)
-        end
-    end
+for folderName in ipairs(folders) do 
+    if (os.isfile(folderName .. "/premake5.lua")) then
+        print(folderName)
+        include (folderName)
+    end  
 end

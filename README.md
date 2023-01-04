@@ -2,7 +2,7 @@
 
                                                      My Raylib Template
 
-This is my raylib library template for MS. Visual Studio.
+This is my c, c++ and raylib library template generator for MS. Visual Studio.
 
 The template is slim and easy to use. :raised_hands:
 It is one of the fastest ways to be up and coding using the Raylib library. :runner:
@@ -11,7 +11,7 @@ Follow the link below for the guidelines on how to utilize the template:
 
 
 Note that the template (main.cpp) includes the input mouse example from https://www.raylib.com/examples.html 
-and it also includes some of my comment templates.
+and it also includes some of my comments templates.
 
 -----------------------------------------------------------------------------------------------------------------------------
 Requirements:
@@ -31,10 +31,16 @@ GitHub: https://github.com
 -----------------------------------------------------------------------------------------------------------------------------
 Project description:
 
-This project utilized the raylib-extras/game-premake project from JeffM2501 Jeffery Myers Professional Game Developer 
-Link: https://github.com/raylib-extras/game-premake
+This project utilized premake5 to generate a c, c++ and raylib library template for the MS. Visual Studio
 
+https://premake.github.io
+
+The premake5 files were created by Jeffery Myers, I modified them to fit my needs and wants.
 Thank You, Jeffery Myers! :clap:
+
+JeffM2501 Jeffery Myers Professional Game Developer
+ 
+Link: https://github.com/raylib-extras/game-premake
 
 -----------------------------------------------------------------------------------------------------------------------------
 Setup:

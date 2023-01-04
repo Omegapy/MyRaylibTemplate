@@ -1,4 +1,6 @@
 
+-- Modified from Jeffery Myers original version 
+
 function platform_defines()
     defines{"PLATFORM_DESKTOP"}
 
@@ -59,7 +61,7 @@ function link_raylib()
     filter "system:windows"
         defines{"_WIN32"}
         links {"winmm", "kernel32", "opengl32", "gdi32"}
-        libdirs {"../_bin/%{cfg.buildcfg}"}
+        libdirs {"../bin/%{cfg.buildcfg}"}
 
     filter "system:linux"
         links {"pthread", "GL", "m", "dl", "rt", "X11"}
@@ -88,9 +90,9 @@ project "raylib"
 
     platform_defines()
 
-    location "_build"
+    location "build"
     language "C"
-    targetdir "_bin/%{cfg.buildcfg}"
+    targetdir "bin/%{cfg.buildcfg}"
 
     filter "action:vs*"
         defines{"_WINSOCK_DEPRECATED_NO_WARNINGS", "_CRT_SECURE_NO_WARNINGS"}

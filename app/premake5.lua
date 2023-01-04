@@ -1,10 +1,13 @@
 
+-- Modified from Jeffery Myers original version 
+
 baseName = path.getbasename(os.getcwd());
 
 project (workspaceName)
   	kind "ConsoleApp"
-    location "../_build"
-    targetdir "../_bin/%{cfg.buildcfg}"
+    location "../build"
+    targetdir "../bin/%{cfg.buildcfg}"
+    targetdir "../bin/%{cfg.buildcfg}"
 	
     filter "configurations:Release"
 		kind "WindowedApp"
@@ -20,12 +23,11 @@ project (workspaceName)
 	
 	vpaths 
 	{
-	  ["Header Files/*"] = { "include/**.h",  "include/**.hpp", "src/**.h", "src/**.hpp", "**.h", "**.hpp"},
-	  ["Source Files/*"] = {"src/**.c", "src/**.cpp","**.c", "**.cpp"},
+	  ["Header Files/*"] = {"**.h", "**.hpp"},
+	  ["Source Files/*"] = {"**.c", "**.cpp"},
 	}
 	files {"**.c", "**.cpp", "**.h", "**.hpp"}
 
-	includedirs { "./", "src", "include"}
+	
 	link_raylib();
 	
-	-- To link to a lib use link_to("LIB_FOLDER_NAME")
