@@ -2,7 +2,7 @@
 
                                                      My Raylib Template
 
-This is my c, c++ and raylib library template generator for MS. Visual Studio.
+This is my c, c++ and raylib library template generator and raylib installer for MS. Visual Studio. 
 
 The template is slim and easy to use. :raised_hands:
 
