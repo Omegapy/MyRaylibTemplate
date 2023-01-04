@@ -47,6 +47,8 @@ Setup:
 Links  :
 
 Project GitHub: https://github.com/Omegapy/MyRaylibTemplate
+
 GitHub: https://github.com/Omegapy
+
 YouTube: https://www.youtube.com/@omegapy (new)
 
