@@ -39,6 +39,7 @@ https://premake.github.io
 The premake5 files were created by Jeffery Myers, I modified them to fit my needs and wants.
 
 Thank You, Jeffery Myers! :clap:
+
 JeffM2501 Jeffery Myers Professional Game Developer
  
 Link: https://github.com/raylib-extras/game-premake
