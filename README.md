@@ -3,6 +3,7 @@
                                                      My Raylib Template
 
 This is my raylib library template for MS. Visual Studio.
+
 The template is slim and easy to use. :raised_hands:
 It is one of the fastest ways to be up and coding using the Raylib library. :runner:
 
