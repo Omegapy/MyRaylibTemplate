@@ -1,7 +1,6 @@
-
 -----------------------------------------------------------------------------------------------------------------------------
 
-                                       My Raylib Template
+                                                     My Raylib Template
 
 This is my raylib library template for MS. Visual Studio.
 The template is slim and easy to use. :raised_hands:
