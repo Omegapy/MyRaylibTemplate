@@ -2,7 +2,7 @@
 
                                                      My Raylib Template
 
-This is my c, c++ and raylib library template generator and raylib installer for MS. Visual Studio. 
+This is my c, c++, raylib library template generator and raylib installer for MS. Visual Studio. 
 
 The template is slim and easy to use. :raised_hands:
 
@@ -10,6 +10,7 @@ It is one of the fastest ways to be up and coding using the Raylib library. :run
 
 Follow the link below for the guidelines on how to utilize the template:
 
+https://youtu.be/FRgXau8E2RE
 
 Note that the template (main.cpp) includes the input mouse example from https://www.raylib.com/examples.html 
 and it also includes some of my comments templates.
