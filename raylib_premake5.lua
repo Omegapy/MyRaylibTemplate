@@ -1,5 +1,5 @@
 
--- Modified from Jeffery Myers original version 
+-- Modified from Jeffery Myers original version by Alex Ricciardi 2023
 
 function platform_defines()
     defines{"PLATFORM_DESKTOP"}

@@ -1,6 +1,6 @@
 
 
--- Modified from Jeffery Myers original version 
+-- Modified from Jeffery Myers original version by Alex Ricciardi 2023
 
 newoption
 {

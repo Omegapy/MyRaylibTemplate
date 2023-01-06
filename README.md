@@ -12,13 +12,14 @@ Follow the link below for the guidelines on how to utilize the template:
 
 https://youtu.be/FRgXau8E2RE
 
-Note that the template (main.cpp) includes the input mouse example from https://www.raylib.com/examples.html 
-and it also includes some of my comments templates.
+Note that the template (main.c) includes the input mouse example from https://www.raylib.com/examples.html 
 
 -----------------------------------------------------------------------------------------------------------------------------
 Requirements:
 
-c and c++ 11 or later
+c  
+
+c++ 11 or later
 
 MS Windows 10 or later 
 
