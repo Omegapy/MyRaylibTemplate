@@ -10,7 +10,7 @@ It is one of the fastest ways to be up and coding using the Raylib library. :run
 
 Follow the link below for the guidelines on how to utilize the template:
 
-![image](https://user-images.githubusercontent.com/121726699/211129774-d3f1a55f-d850-40dd-bfd5-97505d8f91cf.png)
+https://www.youtube.com/watch?v=tiYPdVx31Q4&t=612s
 
 Note that the template (main.c) includes the input mouse example from https://www.raylib.com/examples.html 
 
