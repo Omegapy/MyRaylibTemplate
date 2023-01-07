@@ -12,6 +12,10 @@ Follow the link below for the guidelines on how to utilize the template:
 
 https://www.youtube.com/watch?v=tiYPdVx31Q4&t=612s
 
+
+![MyRaylibTemplate](https://user-images.githubusercontent.com/121726699/211131597-016a96f3-35a7-434b-9bfc-ef70535dd866.PNG)
+
+
 Note that the template (main.c) includes the input mouse example from https://www.raylib.com/examples.html 
 
 -----------------------------------------------------------------------------------------------------------------------------
